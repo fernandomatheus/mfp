@@ -8,11 +8,12 @@ const commonConfig = require('./webpack.common');
 
 const devConfig = {
   mode: 'development',
+  output: {
+    publicPath: '/'
+  },
   devServer: {
     port: 8081,
-    historyApiFallback: {
-      index: 'index.html',
-    },
+    historyApiFallback: true
   },
   plugins: [
     new ModuleFederationPlugin({
