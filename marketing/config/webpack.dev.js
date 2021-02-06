@@ -9,7 +9,7 @@ const commonConfig = require('./webpack.common');
 const devConfig = {
   mode: 'development',
   output: {
-    publicPath: '/'
+    publicPath: 'http://localhost:8081/'
   },
   devServer: {
     port: 8081,
