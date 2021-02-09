@@ -11,7 +11,7 @@
       <div class="card summary">
         <span class="title">Sales</span>
         <span class="detail">Number of purchases</span>
-        <span class="count purchases">534</span>
+        <span class="count purchases">533</span>
       </div>
     </div>
     <div class="p-col-12 p-lg-4">
